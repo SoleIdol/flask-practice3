@@ -1,0 +1,15 @@
+<!-- author:Sole_idol -->
+<!-- filename: sub1.html -->
+<!-- datetime:2020/8/19 8:00 -->
+
+<h1>这是sub1，通过包含得到</h1>
+<form action="/" method="post" enctype="multipart/form-data">
+    账户：<input type="text">
+    密码：<input type="password">
+    简介<input type="text">
+    维诺健上传测试：<input type="file" name="file">
+    <br>
+    <img src="{{ url_for('static',filename='img/1.jpg') }}" height="150px" alt="没有找到jpg">
+    <br>
+    <input type="submit">
+</form>
